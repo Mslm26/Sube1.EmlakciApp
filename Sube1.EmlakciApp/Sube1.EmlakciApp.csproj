@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="KutuphaneLib">
+      <HintPath>..\..\KutuphaneLib\KutuphaneLib\bin\Debug\netstandard2.0\KutuphaneLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Sube1.EmlakciLib">
+      <HintPath>..\Sube1.EmlakciLib\bin\Debug\netstandard2.1\Sube1.EmlakciLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
